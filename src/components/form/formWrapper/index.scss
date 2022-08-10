@@ -1,0 +1,133 @@
+.formWrapper {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 937px;
+    height: 95vh;
+    margin: 50px 0px 50px 100px;
+
+    .wrapperHead {
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+
+        .profileImg {
+            width: 54px;
+            height: 54px;
+            margin-top: 25px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 50% 50%;
+            }
+        }
+
+        .profileName {
+            margin-left: 30px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .line {
+        width: 100%;
+        border: 1px solid #ECECEC;
+    }
+
+    .details {
+        margin-left: 50px;
+        margin-top: 50px;
+
+        p {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 175%;
+            text-transform: uppercase;
+            color: #9D9D9D;
+            width: 97px;
+        }
+
+        h4 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 11.0177px;
+            line-height: 165%;
+            color: #494848;
+        }
+
+        .div {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+
+            .div-sub1 {
+
+                div {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    justify-content: space-between;
+                    width: 200px;
+                }
+            }
+
+            .div-sub2 {
+                margin-left: 50px;
+                div {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    justify-content: space-between;
+                    width: 200px;
+                }
+            }
+        }
+
+        .form-but {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            float: right;
+            padding: 10px;
+
+            .genAcc {
+                box-sizing: border-box;
+                width: 128px;
+                height: 33px;
+                border: 1px solid #F4BB15;
+                border-radius: 4px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 10px;
+                line-height: 165%;
+                display: block;
+                margin: auto;
+                text-transform: uppercase;
+                color: #F4BB15;
+            }
+
+            .nextBut {
+                width: 128px;
+                height: 33px;
+                background: #F4BB15;
+                border-radius: 4px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 10px;
+                line-height: 165%;
+                display: block;
+                margin: auto;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                border: none;
+                margin-left: 15px;
+                cursor: pointer;
+            }
+        }
+    }
+}

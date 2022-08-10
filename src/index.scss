@@ -30,3 +30,117 @@ h4 {
     line-height: 165%;
     color: #616161;
 }
+
+h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 165%;
+    color: #616161;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 165%;
+    letter-spacing: -0.5px;
+    color: #616161;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 165%;
+    color: #92999F;
+}
+
+.homeLayout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    .lay-sidebar {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 255px;
+        height: 100%;
+        z-index: 1;
+    }
+
+    .lay-div {
+        display: flex;
+        flex-direction: column;
+        width: calc(100% - 25.5rem);
+    }
+}
+
+.formSteps {
+    width: 100%;
+    height: 100%;
+    background: #E5E5E5;
+
+    .sub1 {
+        max-width: 937px;
+        display: flex;
+        flex-direction: column;
+
+        .accHead {
+            width: 100%;
+            height: 80px;
+            display: flex;
+            flex-direction: row;
+            margin: 40px 100px 0px 100px;
+
+            .draft {
+                box-sizing: border-box;
+                background: #FFFFFF;
+                border: 0.6px solid #E5E5E5;
+                border-radius: 3px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 10px;
+                line-height: 165%;
+                color: #B8B8B8;
+                padding: 3px 6px;
+                height: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 27px 10px 0 10px;
+            }
+    
+            .restricted {
+                box-sizing: border-box;
+                padding: 1px 10px;
+                gap: 10px;
+                background: #FC6565;
+                border: 1px solid #FC9090;
+                border-radius: 3px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 10px;
+                line-height: 165%;
+                color: #FFFFFF;
+                padding: 3px 6px;
+                height: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 27px 10px 0 10px;
+            }
+        }
+
+        .steps {
+            box-sizing: border-box;
+            background: #FFFFFF;
+            box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            width: 100%;
+            height: 74px;
+            margin: 20px 0px 0 100px;
+        }
+    }
+}

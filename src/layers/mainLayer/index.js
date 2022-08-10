@@ -1,10 +1,9 @@
 import React from 'react'
 import Header from '../../components/header';
-import Home from '../../components/home';
 import SideBar from '../../components/sidebar';
 
 
-const HomeLayer =()=> {
+const MainLayer =({children})=> {
 
     return (
         <div className="homeLayout">
@@ -17,11 +16,11 @@ const HomeLayer =()=> {
                 <Header />
                 </div>
                 <div className="content">
-                <Home />
+                {children}
                 </div>
             </div>
         </div>
     );
 }
 
-export default HomeLayer;
+export default MainLayer;

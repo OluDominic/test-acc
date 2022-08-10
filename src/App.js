@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import './index.scss';
 import { HomePage, AccPage } from './pages'
 import HomeLayer from './layers/homeLayer';
+import MainLayer from './layers/mainLayer';
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
           </HomeLayer>
         } />
         <Route path="newaccount" element={
-          <AccPage />
+          <MainLayer>
+            <AccPage />
+          </MainLayer>
         } />
       </Routes>
     </div>

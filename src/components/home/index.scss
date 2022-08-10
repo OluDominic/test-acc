@@ -8,8 +8,8 @@
         justify-content: center;
         align-items: center;
         .home-sub {
-            width: 400px;
-            height: 415px;
+            width: 444px;
+            height: 450px;
             border-radius: 8px;
             background: white;
             margin-top: 100px;
@@ -47,6 +47,10 @@
 
                         a {
                             text-decoration: none;
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: nowrap;
+                            justify-content: space-around;
 
                             .individualAccount {
                                 display: flex;
@@ -58,12 +62,15 @@
                                 background: #FFFDF7;
                                 border: 0.621457px solid #F4BB15;
                                 border-radius: 3.55118px;
+                                padding: 5px;
+                                margin: 5px;
 
                                 .individual {
                                     display: flex;
                                     flex-direction: column;
                                     justify-content: space-evenly;
-                                    margin-top: 11px;
+                                    margin: 11px;
+                                    color: #F4BB15;
 
                                     .circle {
                                         box-sizing: border-box;
@@ -71,6 +78,23 @@
                                         height: 10.65px;
                                         background: #FFFFFF;
                                         border: 2.66339px solid #F4BB15;
+                                        border-radius: 50%;
+                                    }
+
+                                    .ind-acc {
+                                        font-style: normal;
+                                        font-weight: 600;
+                                        font-size: 12px;
+                                        line-height: 165%;
+                                        color: #F4BB15;
+                                    }
+
+                                    .sing-user {
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 8.87795px;
+                                        line-height: 165%;
+                                        color: #A2A2A2;
                                     }
 
                                     h5 {
@@ -85,46 +109,100 @@
                                         color: #A2A2A2;
                                     }
                                 }
+
+                                .faUser {
+                                    color: #F4BB15;
+                                    font-size: 24px;
+                                    margin: 11px;
+                                }
+                            }
+
+                            .cooperateAccount {
+                                display: flex;
+                                flex-direction: row;
+                                flex-wrap: nowrap;
+                                box-sizing: border-box;
+                                width: 192px;
+                                height: 69px;
+                                background: #FFFDF7;
+                                border: 0.621457px solid #E5E5E5;
+                                border-radius: 3.55118px;
+                                padding: 5px;
+                                margin-top: 5px;
+
+                                .cooperate {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: space-evenly;
+                                    margin: 11px;
+
+                                    .coop {
+                                        font-family: 'Manrope';
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 8.87795px;
+                                        line-height: 165%;
+                                        color: #A2A2A2;
+                                    }
+
+                                    .for-bus {
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 8.87795px;
+                                        line-height: 165%;
+                                        color: #A2A2A2;
+                                    }
+                                }
+
+                                .faUser {
+                                    color: #F4BB15;
+                                    font-size: 24px;
+                                    margin: 11px;
+                                }
                             }
                         }
                     }
                 }
 
             }
-            h4 {
-                width: 370px;
-                display: block;
-                margin: auto;
-                text-align: center;
-                line-height: 165%;
-            }
 
-            .formInput {
-                margin: 15px;
-                input {
-                    width: 353px;
-                    height: 34px;
-                    border: 0.644957px solid #E5E5E5;
-                    border-radius: 5.32677px;
+            .words {
+                margin-top: 40px;
+                h4 {
+                    width: 370px;
                     display: block;
                     margin: auto;
-                    padding: 12px;
+                    text-align: center;
+                    line-height: 165%;
                 }
-            }
+
+                .formInput {
+                    margin: 15px;
+                    input {
+                        width: 353px;
+                        height: 34px;
+                        border: 0.644957px solid #E5E5E5;
+                        border-radius: 5.32677px;
+                        display: block;
+                        margin: auto;
+                        padding: 12px;
+                    }
+                }
 
             
-            .but {
-                margin: 15px;
-                button {
-                    width: 174.9px;
-                    height: 36.4px;
-                    background: #F4BB15;
-                    border-radius: 8px;
-                    border: none;
-                    color: white;
-                    display: block;
-                    margin: auto;
-                    padding: 12px;
+                .but {
+                    margin: 15px;
+                    button {
+                        width: 174.9px;
+                        height: 36.4px;
+                        background: #F4BB15;
+                        border-radius: 8px;
+                        border: none;
+                        color: white;
+                        display: block;
+                        margin: auto;
+                        padding: 12px;
+                    }
                 }
             }
             
