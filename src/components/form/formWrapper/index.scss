@@ -86,6 +86,239 @@
             }
         }
 
+        .detail{
+            h3 {
+                width: 200px;
+            }
+        .accDetails {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+
+            .acc {
+                display: flex;
+                flex-direction: column;
+
+                .acc-div {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+
+                    p{
+                        width: 150px;
+                    }
+
+                    .accountCard {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        margin-left: 40px;
+
+                        input[type="checkbox"] {
+                            accent-color:#F4BB15;
+                            color: white;
+                            }
+    
+                        h4 {
+                            margin-left: 4px;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+
+    .meansOfId {
+
+        .meansOfId-div {
+            width: 100%;
+            height: 50vh;
+            display: block;
+
+            .div1 {
+                display: block;
+                width: 50%;
+                height: 100%;
+                float: left;
+                border-right: 0.5px solid #E0E0E0;
+
+                .proofOfId {
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 100px;
+
+                    h3 {
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 11px;
+                        line-height: 165%;
+                        display: flex;
+                        align-items: center;
+                        color: #4A5466;
+                    }
+                    .id {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        margin-top: 15px;
+                        .idcard {
+                            box-sizing: border-box;
+                            width: 61.7px;
+                            height: 69.53px;
+                            background: #FFFFFF;
+                            border: 0.695259px solid #D5D5D5;
+                            border-radius: 3.4763px;
+                            margin: 5px;
+
+                            .card-sub {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                margin-top: 30%;
+                                flex-direction: column;
+                                .idIcon {
+                                    justify-content: center;
+                                }
+    
+                                .Idtitle {
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 8.34311px;
+                                    line-height: 11px;
+                                    color: #616161;
+                                }
+                            }
+
+                            
+                        }
+                    }
+
+                    .cardInput{
+
+                        input {
+                            box-sizing: border-box;
+                            position: absolute;
+                            width: 279.32px;
+                            height: 39.1px;
+                            background: #FFFFFF;
+                            border: 0.698301px solid #D5D5D5;
+                            border-radius: 2.49393px;
+                            padding: 8px;
+                        }
+                    }
+                    
+                    button {
+                        margin-top: 50px;
+                        width: 128px;
+                        height: 33px;
+                        background: #F4BB15;
+                        border-radius: 4px;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 10px;
+                        line-height: 165%;
+                        display: block;
+                        align-items: center;
+                        text-align: center;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                        border: none;
+                    }
+                }
+            }
+
+            .div2 {
+                display: block;
+                width: 50%;
+                float: left;
+
+                .div-check {
+                    
+
+                    .identity-check {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 24px;
+                        color: #53C67A;
+                    }
+
+                    .identity-verify {
+                        font-family: 'Manrope';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 11px;
+                        line-height: 15px;
+                        color: #53C67A;
+                        text-align: center;
+                        margin-top: 12px;
+                    }
+
+                    .verify-box {
+                        box-sizing: border-box;
+                        width: 396px;
+                        height: 109px;
+                        border: 1px solid #E0E0E0;
+                        border-radius: 3px;
+                        display: block;
+                        margin: auto;
+                        margin-left: 30px;
+                        margin-top: 20px;
+
+                        .verify {
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: nowrap;
+                            justify-content: space-evenly;
+
+                            .verify-img {
+                                width: 54px;
+                                height: 54px;
+                                margin-top: 27px;
+
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+
+                            .verify-div {
+                                display: flex;
+                                flex-direction: column;
+
+                                span {
+                                    display: flex;
+                                    flex-direction: row;
+                                    flex-wrap: nowrap;
+                                    padding: 0;
+                                    margin: 0;
+                                    font-family: 'Manrope';
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 11px;
+                                    line-height: 165%;
+                                    display: flex;
+                                    align-items: center;
+                                    color: #4A5466;
+                                    max-width: 140px;
+                                    p {
+                                        margin-left: 5px;
+                                        font-size: 11px;
+                                    }
+
+                                    h4 {
+                                        font-size: 11px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
         .form-but {
             display: flex;
             flex-direction: row;

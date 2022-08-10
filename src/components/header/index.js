@@ -1,4 +1,4 @@
-import { faArrowDown, faBars, faBell, faCircleQuestion, faDumbbell } from '@fortawesome/free-solid-svg-icons';
+import { faAngleDown, faArrowDown, faBars, faBell, faCircleQuestion, faDumbbell } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react'
 import Avatar from './../../assets/avatar.png'
@@ -18,7 +18,7 @@ const Header =()=> {
                     <div>David Tomiwa</div>
                     <div>CSO</div>
                 </div>
-                <div className="arroe"> <FontAwesomeIcon icon={faArrowDown} /> </div>
+                <div className="arroe"> <FontAwesomeIcon icon={faAngleDown} /> </div>
             </div>
         </header>
     </div>
