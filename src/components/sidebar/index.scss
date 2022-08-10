@@ -1,0 +1,62 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    width: 255px;
+
+    .sidebar-sub {
+        display: flex;
+        flex-direction: column;
+
+        .bank-name {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 7px;
+
+            .logo {
+                width: 156px;
+                height: 97px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .links {
+
+            ul {
+                margin: 0;
+                padding: 0;
+
+                li {
+                    list-style-type: none;
+                    padding: 23px 0;
+                    display: flex;
+                    margin-left: 45px;
+
+                    a {
+                        font-family: 'Manrope';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 15px;
+                        line-height: 165%;
+                        color: #959595;
+                        text-decoration: none;
+                        text-align: left;
+
+                        :focus {
+                            color: #F4BB15;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
