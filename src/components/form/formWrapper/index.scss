@@ -4,7 +4,7 @@
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     width: 937px;
-    height: 95vh;
+    height: 85vh;
     margin: 50px 0px 50px 100px;
 
     .wrapperHead {
@@ -64,7 +64,9 @@
             flex-wrap: nowrap;
 
             .div-sub1 {
-
+                p {
+                    text-transform: uppercase;
+                }
                 div {
                     display: flex;
                     flex-direction: row;
@@ -473,6 +475,188 @@
             .checklist-sub1 {
                 margin-left: 75px;
                 margin-top: 30px;
+            }
+        }
+    }
+
+    .review {
+
+        .line1 {
+            width: 699px;
+            height: 0px;
+            border: 0.7px solid #ECECEC;
+            margin-top: 25px;
+        }
+
+        .reviewMeansOfId {
+            display: flex;
+            flex-direction: column;
+
+            .reviewMeansOfId-sub {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+
+                p {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 10px;
+                    line-height: 165%;
+                    display: flex;
+                    align-items: center;
+                    text-transform: uppercase;
+                    color: #616161;
+                }
+
+                .nmic {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 10px;
+                    line-height: 165%;
+                    display: flex;
+                    align-items: center;
+                    text-transform: uppercase;
+                    color: #9D9D9D;
+                    margin: 0 46px 0 2px;
+                }
+
+                .identity-check {
+                    color: #53C67A;
+                    margin-left: 17px;
+                    margin-top: 10px;
+                }
+
+                .identity-verify {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 11px;
+                    line-height: 15px;
+                    color: #53C67A;
+                    margin-left: 10px;
+                    margin-top: 10px;
+                }
+            }
+
+            .passport {
+                width: 96px;
+                height: 115px;
+                margin-top: 20px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 15px;
+                }
+            }
+        }
+
+        .cardPreference, .employmentDetails {
+            display: flex;
+            flex-direction: column;
+
+            .cardPref-sub1, .empDetails {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+
+                label {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 10px;
+                    line-height: 165%;
+                    display: flex;
+                    align-items: center;
+                    text-transform: uppercase;
+                    color: #616161;
+                    max-width: 250px;
+                    margin-right: 20px;
+                }
+
+                .accountCard {
+                    display: flex;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        margin-right: 40px;
+                    
+                        input[type="checkbox"] {
+                            accent-color:#F4BB15;
+                            color: white;
+                            }
+    
+                        h4 {
+                            margin-left: 4px;
+                        }
+                }
+
+                p {
+                    text-transform: uppercase;
+                    margin-top: 3px;
+                    max-width: 150px;
+                }
+            }
+        }
+
+        .mandate-card {
+            display: flex;
+            flex-direction: column;
+
+            div {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+
+                label {
+                    text-transform: uppercase;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 10px;
+                    line-height: 165%;
+                    display: flex;
+                    align-items: center;
+                    text-transform: uppercase;
+                    color: #616161;
+                    max-width: 250px;
+                    margin-right: 20px;
+                }
+
+                h4 {
+                    margin-right: 30px;
+                }
+            }
+
+            .rec {
+
+                .span1 {
+                    width: 92px;
+                    height: 94px;
+                    background: #F9F8F8;
+                    border-radius: 2px;
+                    .rec1 {
+                        position: absolute;
+                        width: 80px;
+                        height: 80px;
+                        background: #0A1F44;
+                        opacity: 0.58;
+
+                        img {
+                            position: absolute;
+                            width: 76px;
+                            height: 96px;
+                        }
+
+                        .eagle {
+                            position: absolute;
+                            font-size: 30px;
+                            color: white;
+                        }
+                    }
+    
+                    .rec2 {
+                        font-size: 30px;
+                        position: absolute;
+    
+                    }
+                }
             }
         }
     }
