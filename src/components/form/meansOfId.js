@@ -67,9 +67,10 @@ const MeansOfId =()=> {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="form-but">
+                            
+                        <div style={{marginBottom: "-100px"}} className="form-but">
                             <button onClick={()=> setStep(4)} className="nextBut">Next</button>
+                        </div>
                         </div>
                     </div>
                 }

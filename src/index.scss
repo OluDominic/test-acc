@@ -144,3 +144,48 @@ p {
         }
     }
 }
+
+.form-but {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-right: 98px;
+    padding: 10px;
+    margin-left: 70%;
+
+    .genAcc {
+        box-sizing: border-box;
+        width: 128px;
+        height: 33px;
+        border: 1px solid #F4BB15;
+        border-radius: 4px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 165%;
+        display: block;
+        margin: auto;
+        text-transform: uppercase;
+        color: #F4BB15;
+    }
+
+    .nextBut {
+        width: 128px;
+        height: 33px;
+        background: #F4BB15;
+        border-radius: 4px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 165%;
+        display: block;
+        margin: auto;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border: none;
+        margin-left: 15px;
+        cursor: pointer;
+    }
+}

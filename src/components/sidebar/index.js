@@ -16,19 +16,19 @@ const SideBar =()=> {
             <div className="links">
                 <ul>
                     <li>
-                        <Link to="/"> <FontAwesomeIcon className="icon" icon={faHome} /> Home</Link>
+                        <Link to=""> <FontAwesomeIcon className="icon" icon={faHome} /> Home</Link>
                     </li>
                     <li>
-                        <Link to="/"> <FontAwesomeIcon className="icon" icon={faUserGroup} /> Account</Link>
+                        <Link to=""> <FontAwesomeIcon className="icon" icon={faUserGroup} /> Account</Link>
                     </li>
                     <li>
                         <Link to="newaccount">New Account</Link>
                     </li>
                     <li>
-                        <Link to="/">Status</Link>
+                        <Link to="">Status</Link>
                     </li>
                     <li>
-                        <Link to="/"> <FontAwesomeIcon className="icon" icon={faChartSimple} /> Report</Link>
+                        <Link to=""> <FontAwesomeIcon className="icon" icon={faChartSimple} /> Report</Link>
                     </li>
                 </ul>
             </div>

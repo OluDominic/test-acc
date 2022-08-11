@@ -144,14 +144,16 @@ const Review =()=> {
                                 <label>PASSPORT PHOTOGRAPH</label>
                                 <label>SIGNATURE</label>
                             </div>
-                            <div className="rec">
-                                <div className="span1"><img src={Img1} alt="img1" /><div className="rec1">  <FontAwesomeIcon icon={faEye} className="eagle" /></div></div>
-                                
+                            <div className="mandatecard-pics">
+                                <div className="rec">
+                                    <div className="span1"><img src={Img1} alt="img1" /><div className="rec1">  <FontAwesomeIcon icon={faEye} className="eagle" /></div></div>
+                                    
+                                </div>
+                                <div className="span2"><div  className="rec2"> </div><FontAwesomeIcon icon={faEye} className="eagle" /> </div>
                             </div>
-                            {/* <div className="span2"><div  className="rec2"> </div><FontAwesomeIcon icon={faEye} className="eagle" /> </div> */}
-                        </div>
-                        <div className="form-but">
+                            <div className="form-but">
                             <button className="nextBut">SUBMIT FOR APPROVAL</button>
+                        </div>
                         </div>
                     </div>
                 }

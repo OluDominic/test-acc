@@ -71,6 +71,7 @@ const ContractDetails =()=> {
                                 <h4>2015/20/08</h4>
                             </div>
                         </div>
+                        
                     </div>
                     <div className="form-but">
                         <button className="genAcc">Generate acc No.</button>

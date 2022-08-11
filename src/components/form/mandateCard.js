@@ -45,9 +45,9 @@ const MandateCard =()=> {
                                     </div>
                                 </div>
                             </div>
-                        </div>
                         <div className="form-but">
                             <button onClick={()=> setStep(5)} className="nextBut">Next</button>
+                        </div>
                         </div>
                     </div>
                 }
