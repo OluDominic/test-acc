@@ -3,7 +3,7 @@ import FormWrapper from './formWrapper';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck, faEye } from '@fortawesome/free-solid-svg-icons';
 import Passport from './../../assets/pASSPORT 1.png'
-import Img1 from './../../assets/black-men-cafe-having-business_1157-32534-removebg-preview 1.png'
+import Img1 from './../../assets/black-men-cafe-having-business_1157-32534-removebg-preview 2.png'
 
 const AccountCard =({title})=> {
 
@@ -90,7 +90,11 @@ const Review =()=> {
                                 <div className="identity-check"> <FontAwesomeIcon icon={faCircleCheck} /> </div>
                                 <div className="identity-verify">Identity Verified</div>
                             </div>
-                            <div className="passport"><img src={Passport} alt="meansOfId" /></div>
+                            <div className="passport">
+                                <img src={Passport} alt="meansOfId" />
+                                 <div className="meansOfIdOpaque"></div>
+                                 <FontAwesomeIcon icon={faEye} className="eagle" /> 
+                            </div>
                         </div>
                         <div className="line1"></div>
 
@@ -141,9 +145,13 @@ const Review =()=> {
                                 <label>SIGNATURE</label>
                             </div>
                             <div className="rec">
-                                <div className="span1"><div className="rec1"> <img src={Img1} alt="img1" /> <FontAwesomeIcon icon={faEye} className="eagle" /></div></div>
-                                <div className="span1"><div  className="rec2"> <FontAwesomeIcon icon={faEye} className="eagle" /> </div></div>
+                                <div className="span1"><img src={Img1} alt="img1" /><div className="rec1">  <FontAwesomeIcon icon={faEye} className="eagle" /></div></div>
+                                
                             </div>
+                            {/* <div className="span2"><div  className="rec2"> </div><FontAwesomeIcon icon={faEye} className="eagle" /> </div> */}
+                        </div>
+                        <div className="form-but">
+                            <button className="nextBut">SUBMIT FOR APPROVAL</button>
                         </div>
                     </div>
                 }

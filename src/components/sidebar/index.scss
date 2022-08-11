@@ -52,6 +52,19 @@
                         color: #959595;
                         text-decoration: none;
                         text-align: left;
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+
+                        :active {
+                            color: #F4BB15;
+                            background: #FCFBF8;
+                        }
+
+                        .icon {
+                            margin-right: 28.5px;
+                            font-size: 25px;
+                        }
 
                         :focus {
                             color: #F4BB15;
