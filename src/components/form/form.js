@@ -60,22 +60,22 @@ const FormSteps =()=> {
                     <MuiThemeProvider theme={muiTheme}> 
                         <Stepper style={{width: '100%'}} activeStep={currentStep - 1} orientation="horizontal">
                             <Step>
-                                <StepLabel>Contact Details</StepLabel>
+                                <StepLabel>CONTACT DETAILS</StepLabel>
                             </Step>
                             <Step>
-                                <StepLabel>Account Service Required</StepLabel>
+                                <StepLabel>ACCOUNT SERVICE REQUIRED</StepLabel>
                             </Step>
                             <Step>
-                                <StepLabel>Means of Identification</StepLabel>
+                                <StepLabel>MEANS OF IDENTIFICATION</StepLabel>
                             </Step>
                             <Step>
-                                <StepLabel>Mandate Card</StepLabel>
+                                <StepLabel>MANDATE CARD</StepLabel>
                             </Step>
                             <Step>
-                                <StepLabel>Checklist</StepLabel>
+                                <StepLabel>CHECKLIST</StepLabel>
                             </Step>
                             <Step>
-                                <StepLabel>Review</StepLabel>
+                                <StepLabel>REVIEW</StepLabel>
                             </Step>
                         </Stepper>
                         </MuiThemeProvider>

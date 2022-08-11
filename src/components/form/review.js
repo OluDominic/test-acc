@@ -27,54 +27,54 @@ const Review =()=> {
                         <div className="div">
                             <div className="div-sub1">
                                 <div>
-                                    <p>First Name</p>
+                                    <label>First Name</label>
                                     <h4>Tomiwa</h4>
                                 </div>
                                 <div>
-                                    <p>Email Address</p>
+                                    <label>Email Address</label>
                                     <h4>tomiwaogunremi@gmail.com</h4>
                                 </div>
                                 <div>
-                                    <p>Phone 1</p>
+                                    <label>Phone 1</label>
                                     <h4>081349458594</h4>
                                 </div>
                                 <div>
-                                    <p>State</p>
+                                    <label>State</label>
                                     <h4>Lagos</h4>
                                 </div>
                                 <div>
-                                    <p>LGA</p>
+                                    <label>LGA</label>
                                     <h4>Ikeja</h4>
                                 </div>
                                 <div>
-                                    <p>Date of Birth</p>
+                                    <label>Date of Birth</label>
                                     <h4>2015/20/08</h4>
                                 </div>
                             </div>
 
                             <div className="div-sub2">
                                 <div>
-                                    <p>Last Name</p>
+                                    <label>Last Name</label>
                                     <h4>Ogunremi</h4>
                                 </div>
                                 <div>
-                                    <p>Mailing Address</p>
+                                    <label>Mailing Address</label>
                                     <h4>tomiwaogunremi@gmail.com</h4>
                                 </div>
                                 <div>
-                                    <p>Phone 2</p>
+                                    <label>Phone 2</label>
                                     <h4>081349458594</h4>
                                 </div>
                                 <div>
-                                    <p>City/Town</p>
+                                    <label>City/Town</label>
                                     <h4>Ikeja</h4>
                                 </div>
                                 <div>
-                                    <p>Landmark</p>
+                                    <label>Landmark</label>
                                     <h4>Eti-Osa</h4>
                                 </div>
                                 <div>
-                                    <p>Date of Birth</p>
+                                    <label>Date of Birth</label>
                                     <h4>2015/20/08</h4>
                                 </div>
                             </div>

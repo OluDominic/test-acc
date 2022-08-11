@@ -10,11 +10,19 @@ import Profile from './../../assets/Mask group (1).png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import { FormContext } from '../../context/accContext';
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 
 const IdCard =({icon, title})=> {
+
+    const [background, setBackground] = useState('white')
+    const [color, setColor] = useState('#616161')
+
+    const onChange =()=> {
+        setBackground('#2B2B2B');
+        setColor('#F4BB15');
+    }
     return (
-        <div className="idcard">
+        <div onClick={onChange} style={{background: background, color: color}} className="idcard">
             <div className="card-sub">
                 <div className="idIcon">{icon}</div>
                 <div className="Idtitle">{title}</div>

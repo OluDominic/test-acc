@@ -1,7 +1,7 @@
 import { faChartSimple, faHome, faUserGroup } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import BankCard from './../../assets/home/Providus_Bank_logo_1-removebg-preview 1.png'
 import './index.scss'
 
@@ -16,19 +16,19 @@ const SideBar =()=> {
             <div className="links">
                 <ul>
                     <li>
-                        <Link to=""> <FontAwesomeIcon className="icon" icon={faHome} /> Home</Link>
+                        <NavLink to="/"> <FontAwesomeIcon className="icon" icon={faHome} /> Home</NavLink>
                     </li>
                     <li>
-                        <Link to=""> <FontAwesomeIcon className="icon" icon={faUserGroup} /> Account</Link>
+                        <NavLink to=""> <FontAwesomeIcon className="icon" icon={faUserGroup} /> Account</NavLink>
                     </li>
                     <li>
-                        <Link to="newaccount">New Account</Link>
+                        <NavLink to="newaccount">New Account</NavLink>
                     </li>
                     <li>
-                        <Link to="">Status</Link>
+                        <NavLink to="">Status</NavLink>
                     </li>
                     <li>
-                        <Link to=""> <FontAwesomeIcon className="icon" icon={faChartSimple} /> Report</Link>
+                        <NavLink to=""> <FontAwesomeIcon className="icon" icon={faChartSimple} /> Report</NavLink>
                     </li>
                 </ul>
             </div>

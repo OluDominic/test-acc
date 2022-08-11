@@ -3,6 +3,8 @@ import FormWrapper from './formWrapper';
 
 import { FormContext } from '../../context/accContext';
 import { useContext } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSatellite, faSatelliteDish } from '@fortawesome/free-solid-svg-icons';
 
 const ContractDetails =()=> {
 
@@ -23,10 +25,12 @@ const ContractDetails =()=> {
                             <div>
                                 <p>Email Address</p>
                                 <h4>Ogunremi</h4>
+                                <button> <FontAwesomeIcon icon={faSatelliteDish} /> Edit</button>
                             </div>
                             <div>
                                 <p>Phone 1</p>
                                 <h4>081349458594</h4>
+                                <button> <FontAwesomeIcon icon={faSatelliteDish} /> Edit</button>
                             </div>
                             <div>
                                 <p>State</p>
@@ -53,10 +57,12 @@ const ContractDetails =()=> {
                             <div>
                                 <p>Mailing Address</p>
                                 <h4>Ogunremi</h4>
+                                <button> <FontAwesomeIcon icon={faSatelliteDish} /> Edit</button>
                             </div>
                             <div>
                                 <p>Phone 2</p>
                                 <h4>081349458594</h4>
+                                <button> <FontAwesomeIcon icon={faSatelliteDish} /> Edit</button>
                             </div>
                             <div>
                                 <p>City/Town</p>

@@ -39,7 +39,7 @@ const MandateCard =()=> {
                             <div className="uploadCard">
                                 <div className="p">Upload mANDATE cARD</div>
                                 <div className="broken-lines">
-                                    <div>
+                                    <div className="broken-lines-sub">
                                         <button>Choose photo</button>
                                         <h5>or drag photo here</h5>
                                     </div>
