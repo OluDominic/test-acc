@@ -319,6 +319,116 @@
         }
     }
 
+    .mandate {
+
+        .mandate-sub {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            .mandate-div {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    margin: 12px 0;
+
+                .mandateCard {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+
+                    .mandateName {
+                        font-family: 'Manrope';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 10px;
+                        line-height: 165%;
+                        display: flex;
+                        align-items: center;
+                        text-transform: uppercase;
+                        color: #616161;
+                        width: 123px;
+                    }
+
+                    .mandate-input {
+                        margin-right: 63px;
+
+                        input {
+                        box-sizing: border-box;
+                        height: 15px;
+                        border: 0.5px solid #959595;
+                        border-radius: 2px;
+                        width: inherit;
+                        }
+                    }
+                }
+            }
+
+            .uploadCard {
+                display: flex;
+                flex-direction: row;
+
+                .p {
+                    width: 123px;
+                    font-family: 'Manrope';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 10px;
+                    line-height: 165%;
+                    display: flex;
+                    align-items: center;
+                    text-transform: uppercase;
+                    color: #616161;
+                }
+
+                .broken-lines {
+                    box-sizing: border-box;
+                    width: 183.68px;
+                    height: 84px;
+                    border: 1.568px dashed #E0E0E0;
+                    border-radius: 6.72px;
+                    margin-top: 30px;
+
+                    div{
+                        justify-content: center;
+                        align-items: center;
+                        display: flex;
+                        flex-direction: column;
+
+                    button {
+                        margin-top: 25px;
+                        width: 77.77px;
+                        height: 20.4px;
+                        background: #F4BB15;
+                        border-radius: 5.6px;
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 8.21251px;
+                        line-height: 165%;
+                        display: block;
+                        align-items: center;
+                        text-align: center;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                        border: none;
+                    }
+
+                    h5 {
+                        text-align: center;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 8.96px;
+                        line-height: 165%;
+                        display: flex;
+                        align-items: center;
+                        color: #B8B8B8;
+                    }
+                }
+                }
+            }
+        }
+    }
+
         .form-but {
             display: flex;
             flex-direction: row;
