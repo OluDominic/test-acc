@@ -429,11 +429,60 @@
         }
     }
 
+    .checklist {
+
+        .check{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+            .checklist-sub, .checklist-sub1 {
+                display: flex;
+                flex-direction: column;
+
+                .checklistCard {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    margin: 15px 0;
+
+                    .checklist-icon {
+                        font-size: 14px;
+                        color: #F43131;
+                    }
+
+                    .words {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 10px;
+                        line-height: 165%;
+                        display: flex;
+                        align-items: center;
+                        color: #616161;
+                        margin-left: 6px;
+                    }
+                }
+            }
+
+            .checklist-sub {
+                margin-left: 12px;
+                margin-top: 5px;
+            }
+
+            .checklist-sub1 {
+                margin-left: 75px;
+                margin-top: 30px;
+            }
+        }
+    }
+
         .form-but {
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
             float: right;
+            margin-right: 98px;
             padding: 10px;
 
             .genAcc {
